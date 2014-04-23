@@ -44,6 +44,7 @@ of those sections to manage the look and feel of the site. */
     text-align: center;
     font-family:'Dancing Script', 'cursive';
     font-size: 5em;
+    padding-bottom: 3%;
 }
 
 a:hover {
