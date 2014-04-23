@@ -26,9 +26,7 @@ html {
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
 of those sections to manage the look and feel of the site. */
-.row {
-    padding: 20px;
-}
+
 .logo-text{
     text-align: center;
     font-family:'Dancing Script', 'cursive';
@@ -39,41 +37,54 @@ of those sections to manage the look and feel of the site. */
     text-align: center;
     font-family:'Dancing Script', 'cursive';
     font-size: 5em;
-    padding-bottom: 80px; 
+    padding-bottom: 3%; 
 }
 
-.portfolio-image {
-    min-height: 50px;
-    max-height: 300px;
+.email-text {
+    text-align: center;
+    font-family:'Dancing Script', 'cursive';
+    font-size: 5em;
+}
 
+a:hover {
+    text-decoration: none;
 }
 
 .intro-section {
-    height: 100%;
-    padding-top: 100px;
+    padding: 3%;
+    padding-top: 10%;
     text-align: center;
     background-color: white;
  }   
 
 .portfolio-section {
-    height: 100%;
-    padding-top: 100px;
-    overflow: scroll;
+    padding: 3%;
     text-align: center;
+    overflow:auto;
     background-image: url('../images/subtle-pattern-2.jpg');
 }
 
+.portfolio-section-even {
+    padding: 3%;
+    text-align: center;
+    overflow:auto;
+    background-image: url('../images/subtle-pattern-4.jpg');
+
+}
+
 .about-section {
-    height: 100%;
+    padding: 3%;
     padding-top: 100px;
     text-align: center;
+    overflow:auto;
     background-image: url('../images/subtle-pattern-1.jpg');
 }
 
 
 .contact-section {
-    height: 100%;
+    padding: 3%;
     padding-top: 100px;
     text-align: center;
+    overflow:auto;
     background-image: url('../images/subtle-pattern-2.jpg');
 }
