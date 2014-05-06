@@ -41,6 +41,11 @@ of those sections to manage the look and feel of the site. */
     padding-bottom: 3%; 
 }
 
+.panel-title {
+    text-align: center;
+    padding: 3%; 
+}
+
 .email-text {
     text-align: center;
     font-family:'Dancing Script', 'cursive';
