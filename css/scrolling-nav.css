@@ -41,10 +41,11 @@ of those sections to manage the look and feel of the site. */
     padding-bottom: 3%; 
 }
 
-.panel-title {
+/*.panel-title {
     text-align: center;
-    padding: 3%; 
-}
+    padding: 1%; 
+}*/
+
 
 .email-text {
     text-align: center;
@@ -61,20 +62,33 @@ a:hover {
     padding: 3%;
     padding-top: 10%;
     text-align: center;
-    background-color: #2a6496;
- }   
+    background-color: #7A8ECC;
+    -webkit-animation:intro 5s; /* Chrome, Safari, Opera */
+    animation:intro 5s;
+}
+    /* Chrome, Safari, Opera */
+    @-webkit-keyframes intro
+    {
+    from {background:#6699FF;}
+    to {background:#7A8ECC;}
+    }
+
+    /* Standard syntax */
+    @keyframes intro
+    {
+    from {background:#6699FF;}
+    to {background:#7A8ECC;}
+    }
 
 .portfolio-section {
     padding: 3%;
     text-align: center;
-    overflow:auto;
     background-image: url('../images/subtle-pattern-2.jpg');
 }
 
 .portfolio-section-even {
     padding: 3%;
     text-align: center;
-    overflow:auto;
     background-image: url('../images/subtle-pattern-4.jpg');
 
 }
@@ -91,6 +105,5 @@ a:hover {
     padding: 3%;
     padding-top: 5%;
     text-align: center;
-    overflow:auto;
     background-image: url('../images/subtle-pattern-2.jpg');
 }
