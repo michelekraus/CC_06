@@ -31,7 +31,7 @@ of those sections to manage the look and feel of the site. */
     text-align: center;
     font-family:'Dancing Script', 'cursive';
     font-size: 7em;
-    color: #ecf4fa;
+    color: #fafdff;
 }
 
 .heading-text{
@@ -48,7 +48,6 @@ of those sections to manage the look and feel of the site. */
 
 
 .email-text {
-    text-align: center;
     font-family:'Dancing Script', 'cursive';
     font-size: 5em;
     padding-bottom: 3%;
@@ -63,20 +62,20 @@ a:hover {
     padding-top: 10%;
     text-align: center;
     background-color: #7A8ECC;
-    -webkit-animation:intro 5s; /* Chrome, Safari, Opera */
-    animation:intro 5s;
+    -webkit-animation:intro 10s; /* CSS Transformation Chrome, Safari, Opera */
+    animation:intro 10s;
 }
     /* Chrome, Safari, Opera */
     @-webkit-keyframes intro
     {
-    from {background:#6699FF;}
+    from {background:#23586E;}
     to {background:#7A8ECC;}
     }
 
     /* Standard syntax */
     @keyframes intro
     {
-    from {background:#6699FF;}
+    from {background:#23586E;}
     to {background:#7A8ECC;}
     }
 
@@ -97,7 +96,7 @@ a:hover {
     padding: 3%;
     padding-top: 5%;
     text-align: center;
-    background-image: url('../images/subtle-pattern-1.jpg');
+    background-image: url('../images/subtle-pattern-4.jpg');
 }
 
 
@@ -105,5 +104,13 @@ a:hover {
     padding: 3%;
     padding-top: 5%;
     text-align: center;
+    background-image: url('../images/subtle-pattern-4.jpg');
+}
+
+
+#mc_embed_signup {
+    margin: 0 auto;
     background-image: url('../images/subtle-pattern-2.jpg');
+
+
 }
