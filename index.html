@@ -2,32 +2,37 @@
 <html lang="en">
 
 <head>
-	<link href='http://fonts.googleapis.com/css?family=Dancing+Script:700' rel='stylesheet' type='text/css'>
-	<link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="author" content="">
+	<!-- Google Font -->
+		<link href='http://fonts.googleapis.com/css?family=Dancing+Script:700' rel='stylesheet' type='text/css'>
+	<!-- Favicon -->
+		<link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+	<!-- apple icons -->
+		<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png" />
+		<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png" />
+		<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png" />
+		<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png" />
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="author" content="">
 
 	<title>Michele Kraus</title>
 	<!-- Mail Chimp CSS -->
-	<link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+		<link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
 		<style type="text/css">
 			/*#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }*/
 			/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
 			   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 		</style>
 	<!-- Bootstrap Core CSS -->
-	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+		<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
 
 	<!-- Custom CSS -->
-	<link href="css/scrolling-nav.css" rel="stylesheet" type="text/css">
+		<link href="css/scrolling-nav.css" rel="stylesheet" type="text/css">
 
 </head>
 
-<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
 	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 		<div class="container">
 			<div class="navbar-header page-scroll">
@@ -73,14 +78,18 @@
 			</div>
 		</div>
 	</section>
+
+<!-- Portfolio -->
 	<section id="portfolio" class="portfolio-section">
 		<div class="container">
-			<!-- Heading -->
+
+		<!-- Heading -->
 			<div class="row"> 
-				<div class="col-lg-12">
+				<div class="col-md-12">
 					<h1 class="heading-text">Portfolio</h1>
 				</div> 
 			</div>   
+
 			<!-- Code Challenge 1 -->
 				<div class="row">            
 					<div class="col-md-6 col-md-push-6">
@@ -90,85 +99,92 @@
 						<p>Collaborators: Ceenan Calzadilla &amp; Carrie Schnider</p>
 					</div>
 					<div class="col-md-6 col-md-pull-6">
-						<div class="panel-group" id="accordion3">
-						<div class="panel panel-default">
-							<div class="panel-heading">
-							  <h4 class="panel-title">
-								<a data-toggle="collapse" data-parent="#accordion3" href="#collapseOne3">
+
+					<!-- Image accordian --> 
+						<div class="panel-group" id="accordion3"> 
+							<div class="panel panel-default">
+								<div class="panel-heading">
+							  	<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion3" href="#collapseOne3">
 								  Screenshot 1
-								</a>
-							  </h4>
+									</a>
+							  	</h4>
+								</div>
+								<div id="collapseOne3" class="panel-collapse collapse in">
+									<div class="panel-body">
+										<img src="images/CC_01.png" alt="CC_01" class="img-thumbnail">
+									</div>
+								</div>
 							</div>
-							<div id="collapseOne3" class="panel-collapse collapse in">
-							<div class="panel-body">
-								<img src="images/CC_01.png" alt="CC_01" class="img-thumbnail">
+							<div class="panel panel-default">
+								<div class="panel-heading">
+						  		<h4 class="panel-title">
+										<a data-toggle="collapse" data-parent="#accordion3" href="#collapseTwo3">
+							  		Screenshot 2
+										</a>
+						  	</h4>
 							</div>
-							</div>
-						</div>
-						<div class="panel panel-default">
-						<div class="panel-heading">
-						  <h4 class="panel-title">
-							<a data-toggle="collapse" data-parent="#accordion3" href="#collapseTwo3">
-							  Screenshot 2
-							</a>
-						  </h4>
-						</div>
-						<div id="collapseTwo3" class="panel-collapse collapse">
-						  <div class="panel-body">
-							<img src="images/CC_01_mobile.png" alt="CC_01 Mobile" class="img-thumbnail"> 
+							<div id="collapseTwo3" class="panel-collapse collapse">
+						  	<div class="panel-body">
+									<img src="images/CC_01_mobile.png" alt="CC_01 Mobile" class="img-thumbnail"> 
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-		</section>
-		<section class="portfolio-section-even">
-			<div class="container">
-				<!-- Code Challenge 2 -->
-				<div class="row">
-					<div class="col-md-6">
-						<h1>Content Management</h1>
-						<h3>Multi-Page Site in MODx</h3><br>
-						<p class="lead">Convert a multi-page massage business site in MODx for easier growth and client interface<br> Major client demands: fully editable content, dynamic menus, looped blog posts.</p><br><br>
-						<p>Collaborators: Colette Prepont, Seth Leamer &amp; Carrie Schnider</p><br>
-					</div>
-					<div class="col-md-6">
-						<div class="panel-group" id="accordion">
-						  <div class="panel panel-default">
+	</section>
+
+	<!-- Code Challenge 2 -->
+	<section class="portfolio-section-even">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<h1>Content Management</h1>
+					<h3>Multi-Page Site in MODx</h3><br>
+					<p class="lead">Convert a multi-page massage business site in MODx for easier growth and client interface<br> Major client demands: fully editable content, dynamic menus, looped blog posts.</p><br><br>
+					<p>Collaborators: Colette Prepont, Seth Leamer &amp; Carrie Schnider</p><br>
+				</div>
+				
+				<!-- Image Accordian	 -->
+				<div class="col-md-6">
+					<div class="panel-group" id="accordion">
+						<div class="panel panel-default">
 							<div class="panel-heading">
 							  <h4 class="panel-title">
-								<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+									<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
 								  Screenshot 1
-								</a>
+									</a>
 							  </h4>
 							</div>
 							<div id="collapseOne" class="panel-collapse collapse in">
-							<div class="panel-body">
-								<img src="images/CC_02_1.png" alt="Code Challenge 2" class="img-thumbnail">
-							</div>
+								<div class="panel-body">
+									<img src="images/CC_02_1.png" alt="Code Challenge 2" class="img-thumbnail">
+								</div>
 							</div>
 						</div>
 						<div class="panel panel-default">
-						<div class="panel-heading">
-						  <h4 class="panel-title">
-							<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-							  Screenshot 2
-							</a>
-						  </h4>
-						</div>
-						<div id="collapseTwo" class="panel-collapse collapse">
-						  <div class="panel-body">
-							<img src="images/CC_03_1.png" alt="Code Challenge 3" class="img-thumbnail"> 
+							<div class="panel-heading">
+						  	<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+							  	Screenshot 2
+									</a>
+						  	</h4>
+							</div>
+							<div id="collapseTwo" class="panel-collapse collapse">
+						  	<div class="panel-body">
+									<img src="images/CC_03_1.png" alt="Code Challenge 3" class="img-thumbnail"> 
+								</div>
+							</div>
 						</div>
 					</div>
-				</div>
-			</div>
-		</div> 
-		</div> 
-	</div>
+				</div> 
+			</div> 
+		</div>
 	</section>
+
+	<!-- Oregon Synchro -->
 	<section class="portfolio-section">
 		<div class="container">
 			<div class="row">
@@ -177,45 +193,48 @@
 					<h3>Oregon Synchro</h3><br>
 					<p class="lead">Oregon Association of Synchronized Swimming website update.  Built in wordpress with calendars, blog posts, image galleries and videos.</p> 
 				</div>
+
+				<!-- Image Accordian -->
 				<div class="col-md-6 col-md-pull-6">
 					<div class="panel-group" id="accordion2">
 						<div class="panel panel-default">
 							<div class="panel-heading">
 							  <h4 class="panel-title">
-								<a data-toggle="collapse" data-parent="#accordion2" href="#collapseOne2">
+									<a data-toggle="collapse" data-parent="#accordion2" href="#collapseOne2">
 								  Screenshot 1
-								</a>
+									</a>
 							  </h4>
 							</div>
 							<div id="collapseOne2" class="panel-collapse collapse in">
-							<div class="panel-body">
-								<img src="images/oass1000.png" alt="OASS Home" class="img-thumbnail">
-							</div>
+								<div class="panel-body">
+									<img src="images/oass1000.png" alt="OASS Home" class="img-thumbnail">
+								</div>
 							</div>
 						</div>
 						<div class="panel panel-default">
-						<div class="panel-heading">
-						  <h4 class="panel-title">
-							<a data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo2">
-							  Screenshot 2
-							</a>
-						  </h4>
-						</div>
+							<div class="panel-heading">
+						  	<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo2">
+							  	Screenshot 2
+									</a>
+						  	</h4>
+							</div>
 						<div id="collapseTwo2" class="panel-collapse collapse">
-						  <div class="panel-body">
-							<img src="images/oassPhotos.png" alt="OASS Photos" class="img-thumbnail"> 
+							<div class="panel-body">
+								<img src="images/oassPhotos.png" alt="OASS Photos" class="img-thumbnail"> 
+							</div>
 						</div>
 					</div>
-				</div>
-			</div>  
+				</div>  
+			</div>
 		</div>
 	</div>
-</div>
 </section>
-	</section>
-			<!-- Code Challenge 3/4 -->
-		<!-- <section class="portfolio-section">
-			<div class="container">
+
+	<!-- Formerly code challenge 3/4, added to code challenge 2 section-->
+
+				<!-- <section class="portfolio-section">
+				<div class="container">
 				<div class="row">
 				<div class="col-md-6 col-md-push-6">
 					<h1>Managing Content</h1>
@@ -231,60 +250,57 @@
 				</div>
 			</div>
 		</div>
-	
 	</section> -->
+
+	<!-- Code Challenge 5 -->
 	<section class="portfolio-section-even">
-			<!-- Code Challenge 5 -->
-			<div class="container">
+		<div class="container">
 			<div class="row">
-				 <div class="col-md-6">
+				<div class="col-md-6">
 					<h1>DUGE, where's my car?</h1>
 					<h3>Custom Content in Wordpress</h3><br>
 					<p class="lead">Living my dream of blogging about silly Portland license plates.<br> Major client demands: Custom design, custom jQuery elements, utilize the Wordpress loop.</p><br>
 					<p>Collaborators: Richard Chapman &amp; Carrie Schnider</p>
 				</div>
+
+				<!-- Image Accordian -->
 				<div class="col-md-6">
 					<div class="panel-group" id="accordion5">
-						  <div class="panel panel-default">
+						<div class="panel panel-default">
 							<div class="panel-heading">
 							  <h4 class="panel-title">
-								<a data-toggle="collapse" data-parent="#accordion5" href="#collapseOne5">
+									<a data-toggle="collapse" data-parent="#accordion5" href="#collapseOne5">
 								  Screenshot 1
-								</a>
+									</a>
 							  </h4>
 							</div>
 							<div id="collapseOne5" class="panel-collapse collapse in">
-							<div class="panel-body">
-								<img src="images/CC_05_3.png" alt="Code Challenge 5" class="img-thumbnail">
-							</div>
+								<div class="panel-body">
+									<img src="images/CC_05_3.png" alt="Code Challenge 5" class="img-thumbnail">
+								</div>
 							</div>
 						</div>
 						<div class="panel panel-default">
-						<div class="panel-heading">
-						  <h4 class="panel-title">
-							<a data-toggle="collapse" data-parent="#accordion5" href="#collapseTwo5">
-							  Screenshot 2
-							</a>
-						  </h4>
-						</div>
-						<div id="collapseTwo5" class="panel-collapse collapse">
-						  <div class="panel-body">
-							<img src="images/CC_05_4.png" alt="Code Challenge 5" class="img-thumbnail"> 
+							<div class="panel-heading">
+						  	<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion5" href="#collapseTwo5">
+							  	Screenshot 2
+									</a>
+						  	</h4>
+							</div>
+							<div id="collapseTwo5" class="panel-collapse collapse">
+						  	<div class="panel-body">
+									<img src="images/CC_05_4.png" alt="Code Challenge 5" class="img-thumbnail"> 
+								</div>
+							</div>
 						</div>
 					</div>
-				</div>
-			</div>
-		</div> 
-		</div> 
-	</div>
-					<!-- <img src="images/CC_05_1.png" alt="Code Challenge 5" class="img-thumbnail">
-				</div>
-				 <div class="col-md-3">
-					<img src="images/CC_05_2.png" alt="Code Challenge 5" class="img-thumbnail">
-				</div>
-			</div>   -->
+				</div> 
+			</div> 
+		</div>
 	</section>
-		<!-- Haiku Project -->
+
+<!-- Haiku Project -->
 	<section class="portfolio-section">
 		<div class="container">
 			<div class="row">
@@ -293,97 +309,121 @@
 					<h3>Haiku from Mom &amp; Dad</h3><br>
 					<p class="lead">Personal site exploring parallax scrolling.  Haiku sent from my parents while they tavelled in Japan spring of 2014 set against photos I shot travelling in Japan in 2011.</p>
 				</div>
+
+			<!-- Image Accordian -->
 				<div class="col-md-6 col-md-pull-6">
 					<div class="panel-group" id="accordion4">
 						<div class="panel panel-default">
 							<div class="panel-heading">
 							  <h4 class="panel-title">
-								<a data-toggle="collapse" data-parent="#accordion4" href="#collapseOne4">
+									<a data-toggle="collapse" data-parent="#accordion4" href="#collapseOne4">
 								  Screenshot 1
-								</a>
+									</a>
 							  </h4>
 							</div>
 							<div id="collapseOne4" class="panel-collapse collapse in">
-							<div class="panel-body">
-								<img src="images/haiku-1.png" alt="Haiku Home" class="img-thumbnail">
-							</div>
+								<div class="panel-body">
+									<img src="images/haiku-1.png" alt="Haiku Home" class="img-thumbnail">
+								</div>
 							</div>
 						</div>
 						<div class="panel panel-default">
-						<div class="panel-heading">
-						  <h4 class="panel-title">
-							<a data-toggle="collapse" data-parent="#accordion4" href="#collapseTwo4">
-							  Screenshot 2
-							</a>
-						  </h4>
-						</div>
+							<div class="panel-heading">
+						  	<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion4" href="#collapseTwo4">
+							  	Screenshot 2
+									</a>
+						  	</h4>
+							</div>
 						<div id="collapseTwo4" class="panel-collapse collapse">
 						  <div class="panel-body">
-							<img src="images/haiku-2.png" alt="Haiku" class="img-thumbnail"> 
+								<img src="images/haiku-2.png" alt="Haiku" class="img-thumbnail"> 
+							</div>
 						</div>
+						</div>
+							<div class="panel panel-default">
+								<div class="panel-heading">
+						  		<h4 class="panel-title">
+										<a data-toggle="collapse" data-parent="#accordion4" href="#collapseThree4">
+							 			Screenshot 3
+										</a>
+						  		</h4>
+								</div>
+								<div id="collapseThree4" class="panel-collapse collapse">
+						  		<div class="panel-body">
+										<img src="images/haiku-3.png" alt="Haiku" class="img-thumbnail"> 
+									</div>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading">
+						  		<h4 class="panel-title">
+										<a data-toggle="collapse" data-parent="#accordion4" href="#collapseFour4">
+							 			Screenshot 4
+										</a>
+						  		</h4>
+								</div>
+								<div id="collapseFour4" class="panel-collapse collapse">
+						  		<div class="panel-body">
+										<img src="images/haiku-4.png" alt="Haiku" class="img-thumbnail"> 
+									</div>
+								</div>
+							</div>
+							<br>
+
+				<!-- Button trigger modal -->
+							<button class="btn btn-default btn-sm" data-toggle="modal" data-target="#myModal">
+				  		More Images
+							</button>
+
+				<!-- Modal -->
+							<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+							  <div class="modal-dialog">
+							    <div class="modal-content">
+							      <div class="modal-header">
+							        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+							        <h4 class="modal-title" id="myModalLabel">A few more Haiku</h4>
+							      </div>
+							      <div class="modal-body">
+							        <div class="panel panel-default">
+							        	<div class="panel-heading">
+							        		<h4 class="panel-title">
+							        			<a data-toggle="collapse" data-parent="#accordion4" href="#collapseFive4">
+							        			Screenshot 5
+							        			</a>
+							        		</h4>
+							        	</div>
+							        	<div id="collapseFive4" class="panel-collapse collapse in">
+							        		<div class="panel-body">
+							        			<img src="images/haiku-5.png" alt="Haiku" class="img-thumbnail"> 
+							        		</div>
+							        	</div>
+							        </div>
+							        <div class="panel panel-default">
+							        	<div class="panel-heading">
+							        		<h4 class="panel-title">
+							        			<a data-toggle="collapse" data-parent="#accordion4" href="#collapseSix4">
+							        			Screenshot 6
+							        			</a>
+							        		</h4>
+							        	</div>
+							        	<div id="collapseSix4" class="panel-collapse collapse">
+							        		<div class="panel-body">
+							        			<img src="images/haiku-6.png" alt="Haiku" class="img-thumbnail"> 
+							        		</div>
+							        	</div>
+							        </div>
+							      </div>
+							    </div>
+							  </div>
+							</div>			
+						</div>  
 					</div>
 				</div>
-				<div class="panel panel-default">
-						<div class="panel-heading">
-						  <h4 class="panel-title">
-							<a data-toggle="collapse" data-parent="#accordion4" href="#collapseThree4">
-							  Screenshot 3
-							</a>
-						  </h4>
-						</div>
-						<div id="collapseThree4" class="panel-collapse collapse">
-						  <div class="panel-body">
-							<img src="images/haiku-3.png" alt="Haiku" class="img-thumbnail"> 
-						</div>
-					</div>
-				</div>
-				<div class="panel panel-default">
-						<div class="panel-heading">
-						  <h4 class="panel-title">
-							<a data-toggle="collapse" data-parent="#accordion4" href="#collapseFour4">
-							  Screenshot 4
-							</a>
-						  </h4>
-						</div>
-						<div id="collapseFour4" class="panel-collapse collapse">
-						  <div class="panel-body">
-							<img src="images/haiku-4.png" alt="Haiku" class="img-thumbnail"> 
-						</div>
-					</div>
-				</div>
-		<!-- 		<div class="panel panel-default">
-						<div class="panel-heading">
-						  <h4 class="panel-title">
-							<a data-toggle="collapse" data-parent="#accordion4" href="#collapseFive4">
-							  Screenshot 5
-							</a>
-						  </h4>
-						</div>
-						<div id="collapseFive4" class="panel-collapse collapse">
-						  <div class="panel-body">
-							<img src="images/haiku-5.png" alt="Haiku" class="img-thumbnail"> 
-						</div>
-					</div>
-				</div>
-				<div class="panel panel-default">
-						<div class="panel-heading">
-						  <h4 class="panel-title">
-							<a data-toggle="collapse" data-parent="#accordion4" href="#collapseSix4">
-							  Screenshot 6
-							</a>
-						  </h4>
-						</div>
-						<div id="collapseSix4" class="panel-collapse collapse">
-						  <div class="panel-body">
-							<img src="images/haiku-6.png" alt="Haiku" class="img-thumbnail"> 
-						</div>
-					</div>
-				</div> -->			
-			</div>  
-		</div>
-	</div>
-</div>
-</section>
+			</div>
+	</section>
+
+	<!-- Former Haiku Section without Accordian -->
 		<!-- <section class="portfolio-section">
 			<div class="container">
 			<div class="row">
@@ -403,7 +443,8 @@
 			</div>
 		</div>
 	</section> -->
-</div>
+
+<!-- About Section -->
 	<section id="about" class="about-section">
 		<div class="container">
 			<div class="row">
@@ -417,38 +458,40 @@
 				   </p><img src="images/viewmaster.jpg" alt="How Michele looks at the world.  Photo by Drew Wendeborn" class="img-circle img-responsive">
 				</div>
 				<div class="col-md-3"></div>
+			</div>
 			<div class="row">
 				<div class="col-md-12">
 					<h1>Michele is learning to make beautiful, functional websites.</h1>
-					<p class="lead">Born in Seattle, studied Art History at Stanford.  At Portland Code School learning front end development.<br>  Coaching Synchronized Swimming.<br> Skills: HTML, CSS, MODx and Wordpress, Bootstrap, a little jQuery and JavaScript. Holding my breath.<br><br></p>
+					<p class="lead">Born in Seattle, studied Art History at Stanford.  At Portland Code School learning front end development.<br>  Coaching Synchronized Swimming.</p><hr><br><p class="lead"> Skills: HTML, CSS, MODx and Wordpress, Bootstrap, a little jQuery and JavaScript. Holding my breath.<br><br></p>
 				</div>  
 			</div>
 			<div class="row">
 				<div class="col-md-12">
 					<a href="mailto:kraus.michele@gmail.com" class="email-text">Email Me</a>
 				</div>
-					<!-- Begin MailChimp Signup Form -->
-					<div class="row">
-						<div class="col-md-12">
-			<div class="container mail-chimp">
-					<div id="mc_embed_signup">
-					<form action="http://michelekraus.us8.list-manage.com/subscribe/post?u=52b49a6093d96ca1e932bba32&amp;id=522680a1ab" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-						<label for="mce-EMAIL"><h3>or I'm happy to email you.</h3></label>
-						<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-					    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-					    <div style="position: absolute; left: -5000px;"><input type="text" name="b_52b49a6093d96ca1e932bba32_522680a1ab" tabindex="-1" value=""></div>
-					    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-					</form>
+
+			<!-- MailChimp Signup Form -->
+				<div class="row">
+					<div class="col-md-12">
+						<div class="container mail-chimp">
+							<div id="mc_embed_signup">
+								<form action="http://michelekraus.us8.list-manage.com/subscribe/post?u=52b49a6093d96ca1e932bba32&amp;id=522680a1ab" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+								<label for="mce-EMAIL"><h3>or I'm happy to email you.</h3></label>
+								<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+					   		 <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+					    	<div style="position: absolute; left: -5000px;"><input type="text" name="b_52b49a6093d96ca1e932bba32_522680a1ab" tabindex="-1" value=""></div>
+					    	<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+							</form>
+						</div>
+					</div>
 				</div>
 			</div>
+<!--End mc_embed_signup-->
 		</div>
-			</div>
+	</div>
+</section>
 
-					<!--End mc_embed_signup-->
-			</div>
-		</div>
-	</section>
-
+<!-- Contact Section -->
 	<section id="contact" class="contact-section">
 		<div class="container">
 			<div class="row">
